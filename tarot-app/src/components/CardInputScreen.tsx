@@ -75,7 +75,7 @@ export default function CardInputScreen({
         <h1 className="text-3xl sm:text-4xl font-bold text-esoteric-purple filter drop-shadow-[0_0_5px_rgba(126,87,194,0.8)] mb-3">
           {chosenSpread.name}
         </h1>
-        <p className="text-md text-astral-light/80 italic mb-1">Your Question: "{question}"</p>
+        <p className="text-md text-astral-light/80 italic mb-1">Your Question: &quot;{question}&quot;</p>
         {/* Optional: Allow editing question here */} 
         {/* <input type="text" value={question} onChange={(e) => setQuestion(e.target.value)} className="..." /> */}
       </header>

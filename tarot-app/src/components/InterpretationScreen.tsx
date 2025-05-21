@@ -28,7 +28,7 @@ export default function InterpretationScreen({
           The Veil is Lifted
         </h1>
         <p className="text-lg text-astral-light/80 italic">
-          Regarding your query: "{question}"
+          Regarding your query: &quot;{question}&quot;
         </p>
       </header>
 
@@ -56,7 +56,7 @@ export default function InterpretationScreen({
         </section>
 
         <section className="mt-10 pt-6 border-t border-esoteric-purple/30 prose-tarot max-w-none">
-          <h2 className="text-3xl font-bold mb-4 text-starlight-gold text-center">The Oracle's Message:</h2>
+          <h2 className="text-3xl font-bold mb-4 text-starlight-gold text-center">The Oracle&apos;s Message:</h2>
           <div
             className="whitespace-pre-wrap text-astral-light/90 text-md leading-relaxed bg-shadow-blue/30 p-4 sm:p-6 rounded-md ring-1 ring-cosmic-blue/30"
             dangerouslySetInnerHTML={{ __html: interpretation.replace(/\n/g, '<br />') }}

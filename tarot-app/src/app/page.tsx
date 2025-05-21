@@ -173,7 +173,7 @@ export default function Home() {
       <main className="w-full max-w-4xl bg-astral-bg shadow-2xl shadow-esoteric-purple/30 rounded-lg p-6 sm:p-8 ring-1 ring-esoteric-purple/50">
         <p>Current Step: {currentStep}</p>
         {chosenSpread && <p>Chosen Spread: {chosenSpread.name}</p>}
-        {userQuestion && <p>Your Question: "{userQuestion}"</p>}
+        {userQuestion && <p>Your Question: &quot;{userQuestion}&quot;</p>}
         {finalDrawnCards.length > 0 && (
             <div className="my-4">
                 <h4 className="text-cosmic-blue">Cards Submitted:</h4>
